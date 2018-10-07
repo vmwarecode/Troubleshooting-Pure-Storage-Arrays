@@ -1,0 +1,757 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1538597677546,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "b4856422-d934-4eaa-be0a-0386bc28154b",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Troubleshooting Pure Storage Arrays",
+      "namePath": "Custom Dashboards",
+      "rank": 212,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "widgetIdReceiver": "ba3e6965-c6a9-4b7b-8584-181bff54701d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "widgetIdReceiver": "906313b8-148b-4a45-bfe8-aa62e2e2c092"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "widgetIdReceiver": "94324f13-8101-4069-9210-41d2b982852d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "widgetIdReceiver": "2c65ed05-18dd-465a-a253-898ec55a0b78"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "widgetIdReceiver": "d7de2f48-d0aa-45fe-98f2-b8293315397c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "widgetIdReceiver": "1c137fad-c7b7-49d2-8940-a1bef7f8828d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "widgetIdReceiver": "4354aead-f27f-466c-b05e-2dc7e59bc1ac"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "widgetIdReceiver": "ca89529c-e6ba-4d09-97d1-0b5f2e0d8934"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "widgetIdReceiver": "cdc96d5d-0183-4e30-9222-276ecfafdd04"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "id": "extModel3988-1",
+                     "isStringMetric": false,
+                     "label": "Total IOps",
+                     "link": "",
+                     "metricKey": "Performance|total_iops",
+                     "metricName": "Performance|Total IOPS",
+                     "metricUnitId": "operationsps",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Pure Array",
+                     "unit": "operations/s",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": true},
+               "title": "5. Are the current total IOPS high?",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 11
+            },
+            "height": 153,
+            "id": "ba3e6965-c6a9-4b7b-8584-181bff54701d",
+            "title": "5. Are the current total IOPS high?",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10879-1",
+                        "isStringMetric": false,
+                        "label": "Read Latency",
+                        "link": "",
+                        "metricKey": "Performance|read_latency",
+                        "metricName": "Performance|Read Latency",
+                        "metricUnitId": "microseconds",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "μs",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10879-2",
+                        "isStringMetric": false,
+                        "label": "Write Latency",
+                        "link": "",
+                        "metricKey": "Performance|write_latency",
+                        "metricName": "Performance|Write Latency",
+                        "metricUnitId": "microseconds",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "μs",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": true},
+               "title": "2. Is the current latency high?",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 4
+            },
+            "height": 153,
+            "id": "906313b8-148b-4a45-bfe8-aa62e2e2c092",
+            "title": "2. Is the current latency high?",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Performance|read_latency",
+               "metricLabel": "",
+               "metricName": "Read Latency (μs)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": "microseconds",
+                  "metricUnitName": "μs"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "3. What has been the behavior of read latency over the last 24 hours?",
+               "undefined": "Performance|Read Latency (μs)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 7
+            },
+            "height": 210,
+            "id": "94324f13-8101-4069-9210-41d2b982852d",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_b4856422-d934-4eaa-be0a-0386bc28154b_94324f13-8101-4069-9210-41d2b982852d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange_HealthChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_94324f13-8101-4069-9210-41d2b982852d",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "3. What has been the behavior of read latency over the last 24 hours?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 1,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "id": "extModel4206-1",
+                     "isStringMetric": false,
+                     "label": "Total Bandwidth",
+                     "link": "",
+                     "metricKey": "Performance|total_bandwidth",
+                     "metricName": "Performance|Total Bandwidth",
+                     "metricUnitId": "byteps",
+                     "orangeBound": null,
+                     "redBound": null,
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Pure Array",
+                     "unit": "B/s",
+                     "yellowBound": null
+                  }],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": true},
+               "title": "8. Is total bandwidth high?",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 19
+            },
+            "height": 153,
+            "id": "2c65ed05-18dd-465a-a253-898ec55a0b78",
+            "title": "8. Is total bandwidth high?",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Version",
+                     "metricKey": "Details|version",
+                     "metricName": "Details|Version",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Total Alerts",
+                     "metricKey": "System Attributes|total_alert_count",
+                     "metricName": "vRealize Operations Generated|Total Alert Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Capacity (B)",
+                     "metricKey": "Capacity|capacity",
+                     "metricName": "Capacity|Capacity (B)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Total Used Space (B)",
+                     "metricKey": "Capacity|total_used_space",
+                     "metricName": "Capacity|Total Used Space (B)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Total Used Space (%)",
+                     "metricKey": "Capacity|total_used_space_ratio",
+                     "metricName": "Capacity|Total Used Space (%)",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Pure Host Count",
+                     "metricKey": "Details|host_count",
+                     "metricName": "Details|Host Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Pure Host Group Count",
+                     "metricKey": "Details|host_group_count",
+                     "metricName": "Details|Host Group Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Protection Group Count",
+                     "metricKey": "Details|protection_group_count",
+                     "metricName": "Details|Protection Group Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Volume Count",
+                     "metricKey": "Details|volume_count",
+                     "metricName": "Details|Volume Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Volume Group Count",
+                     "metricKey": "Details|volume_group_count",
+                     "metricName": "Details|Volume Group Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Volume Snapshot Count",
+                     "metricKey": "Details|volume_snapshot_count",
+                     "metricName": "Details|Volume Snapshot Count",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "1. Search for a Pure Storage Arrays (use filter)"
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 1
+            },
+            "height": 153,
+            "id": "d23e96fa-ea54-4311-83fb-ab199a327f06",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_b4856422-d934-4eaa-be0a-0386bc28154b_d23e96fa-ea54-4311-83fb-ab199a327f06",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permResGrid_widget_b4856422-d934-4eaa-be0a-0386bc28154b_d23e96fa-ea54-4311-83fb-ab199a327f06",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A214%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A196%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A173%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A127%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A151%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A194%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A234%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A202%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A166%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A227%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A228%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A172%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A240%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A241%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A174%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "1. Search for a Pure Storage Arrays (use filter)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Performance|queue_depth",
+               "metricLabel": "",
+               "metricName": "Queue Depth",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Default Unit"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "10. Is queue depth abnormally high?",
+               "undefined": "Performance|Queue Depth"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 12,
+               "x": 1,
+               "y": 25
+            },
+            "height": 210,
+            "id": "d7de2f48-d0aa-45fe-98f2-b8293315397c",
+            "states": [{
+               "key": "permDateRange_HealthChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_d7de2f48-d0aa-45fe-98f2-b8293315397c",
+               "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+            }],
+            "title": "10. Is queue depth abnormally high?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "chartHeight": 115,
+               "metricKey": "Performance|write_latency",
+               "metricLabel": "",
+               "metricName": "Performance|Write Latency (μs)",
+               "metricType": {"metricType": "custom"},
+               "metricUnit": {
+                  "metricUnitId": "microseconds",
+                  "metricUnitName": "μs"
+               },
+               "mode": "self",
+               "paginationNumber": 15,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "resourceKindId": "resourceKind:id:0_::_",
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": false},
+               "showMetricLabel": {"showMetricLabel": false},
+               "showResourceName": {"showResourceName": true},
+               "sortBy": "metricValue",
+               "sortByDir": {"orderByDir": "asc"},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "4.  Write latency over the last 24 hours?",
+               "undefined": "Performance|Write Latency (μs)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 7
+            },
+            "height": 210,
+            "id": "1c137fad-c7b7-49d2-8940-a1bef7f8828d",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_b4856422-d934-4eaa-be0a-0386bc28154b_1c137fad-c7b7-49d2-8940-a1bef7f8828d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange_HealthChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_1c137fad-c7b7-49d2-8940-a1bef7f8828d",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "4.  Write latency over the last 24 hours?",
+            "type": "HealthChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel3699-1",
+                     "isStringMetric": false,
+                     "metricKey": "Performance|write_iops",
+                     "metricName": "Performance|Write IOPS",
+                     "metricUnitId": "writeps",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Pure Array",
+                     "unit": "writes/s"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "7.  Are write IOPS high over the last 24 hours?"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 7,
+               "y": 14
+            },
+            "height": 267,
+            "id": "4354aead-f27f-466c-b05e-2dc7e59bc1ac",
+            "states": [
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_4354aead-f27f-466c-b05e-2dc7e59bc1ac",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_4354aead-f27f-466c-b05e-2dc7e59bc1ac",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_4354aead-f27f-466c-b05e-2dc7e59bc1ac",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_4354aead-f27f-466c-b05e-2dc7e59bc1ac",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_b4856422-d934-4eaa-be0a-0386bc28154b_4354aead-f27f-466c-b05e-2dc7e59bc1ac",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "7.  Are write IOPS high over the last 24 hours?",
+            "type": "MetricChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8903-1",
+                        "isStringMetric": false,
+                        "label": "Read Bandwidth",
+                        "link": "",
+                        "metricKey": "Performance|read_bandwidth",
+                        "metricName": "Performance|Read Bandwidth",
+                        "metricUnitId": "byteps",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "B/s",
+                        "yellowBound": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8903-2",
+                        "isStringMetric": false,
+                        "label": "Write Bandwidth",
+                        "link": "",
+                        "metricKey": "Performance|write_bandwidth",
+                        "metricName": "Performance|Write Bandwidth",
+                        "metricUnitId": "byteps",
+                        "orangeBound": null,
+                        "redBound": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "Pure Array",
+                        "unit": "B/s",
+                        "yellowBound": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": true},
+               "showSparkline": {"showSparkline": true},
+               "title": "9.  What does read and write bandwidth look like over the last 24 hours?",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 3,
+               "w": 12,
+               "x": 1,
+               "y": 22
+            },
+            "height": 153,
+            "id": "ca89529c-e6ba-4d09-97d1-0b5f2e0d8934",
+            "title": "9.  What does read and write bandwidth look like over the last 24 hours?",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 2,
+                     "id": "extModel3394-1",
+                     "isStringMetric": false,
+                     "metricKey": "Performance|read_iops",
+                     "metricName": "Performance|Read IOPS",
+                     "metricUnitId": "readsps",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Pure Array",
+                     "unit": "reads/s"
+                  }],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "selfProvider": {"selfProvider": false},
+               "title": "8.  Area read IOPS high over the last 24 hours?"
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 6,
+               "x": 1,
+               "y": 14
+            },
+            "height": 267,
+            "id": "cdc96d5d-0183-4e30-9222-276ecfafdd04",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_b4856422-d934-4eaa-be0a-0386bc28154b_cdc96d5d-0183-4e30-9222-276ecfafdd04",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_cdc96d5d-0183-4e30-9222-276ecfafdd04",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_cdc96d5d-0183-4e30-9222-276ecfafdd04",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_cdc96d5d-0183-4e30-9222-276ecfafdd04",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last24Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_b4856422-d934-4eaa-be0a-0386bc28154b_cdc96d5d-0183-4e30-9222-276ecfafdd04",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "8.  Area read IOPS high over the last 24 hours?",
+            "type": "MetricChart"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "PURESTORAGEFLASHARRAY_ADAPTER",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "pure_storage_flasharray_purestorage_flasharray_array"
+   }]},
+   "uuid": "45c96cdb-9eae-43e2-b0b0-0d2efda790f3"
+}
